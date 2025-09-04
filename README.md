@@ -7,6 +7,6 @@ The core of this paper lies in the calculation of rainfall uncertainty. The exec
         Since calculations in this work are mostly done using matrix fashion, Matlab was used for faster performance. Therefore, the matlab scripts in this repository need to be adjusted to user's working path.
         An executable of the hydrological model is provided in this repository. Detailed user guide/instructions regarding the DCHM model will be provided upon request since we are working on licensing it. 
     3. Use plot_IRC_results.m script to generate figures presented in the paper.
-    4. Use AI_transfer_learning.m script to construct feedforward neural networks for transfer learning and generate corresponding figures. 
+    4. Use AI_transfer_learning.m script to construct Random Forest Regressor for Cross-regional model validataion and generate corresponding figures. 
 
 Note: outputs from the IRC process are very large due to the use of Lagrangian tracking at high resolution (5 minutes scale), the total raw data outputs is >80TB in binary format. These raw outputs can be downloaded upon request.
